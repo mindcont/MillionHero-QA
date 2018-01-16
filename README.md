@@ -11,11 +11,14 @@
 ## Install
 
 ```css
+sudo apt-get install git
 pip install requests
 ```
 use python in windows press `win + R ` or in ubunut press `ctrl + alt +t` to open the terminal
 
 ```css
+git clone https://github.com/mindcont/ixigua-qa.git
+cd ixigua-qa
 chmod +x million-answer-spider.py
 python million-answer-spider.py
 ```
