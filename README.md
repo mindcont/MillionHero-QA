@@ -1,5 +1,8 @@
 # 《百万英雄》题库
 
+![](https://img.shields.io/badge/百万英雄-题库-brightgreen.svg)
+![](https://mindcont.com/bigdata/static/img/build-with-love.svg)
+
 <!-- ![](http://static.mindcont.com/blog/images/resources/ixigua-qa.png) -->
 
 ```json
@@ -13,9 +16,6 @@
 > 《百万英雄》是一档全民知识互动游戏，在《百万英雄》里每场12道题目全部回答正确的人，将瓜分奖金。
 
 题库持续更新ing, 喜欢请给我小星星噢~
-
-![](https://img.shields.io/badge/百万英雄-题库-brightgreen.svg)
-![](https://mindcont.com/bigdata/static/img/build-with-love.svg)
 
 ## Install
 First install some dependencies like `git`, `requests`.

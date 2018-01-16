@@ -1,0 +1,2 @@
+requests==2.2.1
+urllib3==1.7.1

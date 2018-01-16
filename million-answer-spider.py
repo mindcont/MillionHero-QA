@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 本脚本实现 收集百万英雄 历次答题的题库
-# writed by 張正軒
-# 更多访问  http://blog.mindcont.com
+# writed by Zhengxuan Zhang
+# More visit  http://blog.mindcont.com
 #
 
 import requests
