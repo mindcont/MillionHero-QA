@@ -20,8 +20,8 @@ sys.setdefaultencoding('utf-8')
 
 def getAndSave():
 
-    # file =codecs.open("百万英雄历次答题.txt","a+","utf-8")
-    saveName = "百万英雄历次答题-" + datetime.now().strftime("%Y%m%d") + ".txt"
+    # file =codecs.open("百万英雄题库.txt","a+","utf-8")
+    saveName = "百万英雄题库-" + datetime.now().strftime("%Y%m%d") + ".txt"
     file =codecs.open(saveName,"w","utf-8")
     host = 'http://answer.sm.cn/answer/detail?format=json&activity=million'
 

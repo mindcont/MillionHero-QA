@@ -19,7 +19,7 @@ use python in windows press `win + R ` or in ubunut press `ctrl + alt +t` to ope
 chmod +x million-answer-spider.py
 python million-answer-spider.py
 ```
-the result in some filename like `百万英雄历次答题-20180114.txt`
+the result in some filename like `百万英雄题库-20180114.txt`
 ```json
 
 2018年1月12日	21:00场 300万
