@@ -21,6 +21,9 @@
 First install some dependencies like `git`, `requests`.
 ```css
 sudo apt-get install git
+pip install -r requirements.txt
+
+# or install by manual
 pip install requests
 ```
 then use python. Open a terminal, in windows press `win + R ` or in ubunut press `ctrl + alt +t`
