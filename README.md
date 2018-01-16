@@ -1,28 +1,37 @@
 # 《百万英雄》题库
 
+<!-- ![](http://static.mindcont.com/blog/images/resources/ixigua-qa.png) -->
+
+```json
+    __  ____ _____             __  __                      ____    ___
+   /  |/  (_) / (_)___  ____  / / / /__  _________        / __ \  /   |
+  / /|_/ / / / / / __ \/ __ \/ /_/ / _ \/ ___/ __ \______/ / / / / /| |
+ / /  / / / / / / /_/ / / / / __  /  __/ /  / /_/ /_____/ /_/ / / ___ |
+/_/  /_/_/_/_/_/\____/_/ /_/_/ /_/\___/_/   \____/      \___\_\/_/  |_|
+
+```
+> 《百万英雄》是一档全民知识互动游戏，在《百万英雄》里每场12道题目全部回答正确的人，将瓜分奖金。
+
+题库持续更新ing, 喜欢请给我小星星噢~
+
 ![](https://img.shields.io/badge/百万英雄-题库-brightgreen.svg)
 ![](https://mindcont.com/bigdata/static/img/build-with-love.svg)
 
-> 《百万英雄》是一档全民知识互动游戏，在《百万英雄》里每场12道题目全部回答正确的人，将瓜分奖金。
-
-![](http://static.mindcont.com/blog/images/resources/ixigua-qa.png)
-
-题库持续更新ing, 喜欢请给我小星星噢~
 ## Install
-
+First install some dependencies like `git`, `requests`.
 ```css
 sudo apt-get install git
 pip install requests
 ```
-use python in windows press `win + R ` or in ubunut press `ctrl + alt +t` to open the terminal
+then use python. Open a terminal, in windows press `win + R ` or in ubunut press `ctrl + alt +t`
 
 ```css
-git clone https://github.com/mindcont/ixigua-qa.git
-cd ixigua-qa
+git clone https://github.com/mindcont/MillionHero-QA.git
+cd MillionHero-QA
 chmod +x million-answer-spider.py
 python million-answer-spider.py
 ```
-the result in some filename like `百万英雄题库-20180114.txt`
+the result will be in some filename like `百万英雄题库-20180112.txt`
 ```json
 
 2018年1月12日	21:00场 300万
