@@ -25,25 +25,35 @@ def getAndSave():
     file =codecs.open(saveName,"w","utf-8")
     host = 'http://answer.sm.cn/answer/detail?format=json&activity=million'
 
-    for sid_num in range(1,100):
+    for sid_num in range(18,300):
         url = host + '&sid=' + str(sid_num)
         rawData = requests.post(url)
         mjson = json.loads(rawData.text)
         question = mjson['data']['question']
 
         if question:
-            print sid_num
+            print "now spider location: " + url
             # print rawData.text
-            tempDate =''
             q_info = mjson['data']['info']
+
             # 保存日期、场次、奖金池信息
             print >>file, "2018年".decode("utf-8") + q_info['date']+ '\t' + q_info['order'] +' '+ q_info['reward']
             print >>file, "===================================================="
 
             # 遍历 12个问题及其答案
             for q_id in range(0,len(question)):
-                # 保存到txt
-                print >>file,  str(question[q_id]['id']) + '\t' + question[q_id]['title'] + '\t' + question[q_id]['answer']
+                q_question_answer = question[q_id]['answer']
+
+                # 由于个性化题目存在多个答案，需要根据特定情况调整输出后，再保存到txt
+                if isinstance(q_question_answer, list):
+                    person_anwser = ''
+                    for person_num in range(0,len(q_question_answer)):
+                         person_anwser += q_question_answer[person_num] + "、"
+                    # print person_anwser[:-1]
+                    print >>file, str(question[q_id]['id']) + '\t' + question[q_id]['title'] + '\t' + person_anwser[:-1]
+
+                else:
+                    print >>file, str(question[q_id]['id']) + '\t' + question[q_id]['title'] + '\t' + q_question_answer
 
             print >>file, "====================================================" +'\n'
 
