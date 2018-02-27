@@ -5,6 +5,12 @@
 
 <!-- ![](http://static.mindcont.com/blog/images/resources/ixigua-qa.png) -->
 
+
+## Update
+
+> - 2018-02-22 因[今日头条诉答题助手为不正当竞争](http://tech.sina.com.cn/i/2018-02-22/doc-ifyrvspi0615003.shtml) 该方法已失效!!!
+> - 2018-02-15 因[广电总局加强管制网络视听直播答题活动](http://www.nbd.com.cn/articles/2018-02-19/1193173.html)，百万英雄官微宣布第一季结束。
+
 ```json
     __  ____ _____             __  __                      ____    ___
    /  |/  (_) / (_)___  ____  / / / /__  _________        / __ \  /   |
@@ -15,7 +21,6 @@
 ```
 > 《百万英雄》是一档全民知识互动游戏，在《百万英雄》里每场12道题目全部回答正确的人，将瓜分奖金。
 
-题库持续更新ing, 喜欢请给我小星星噢~
 
 ## Install
 First install some dependencies like `git`, `requests`.
